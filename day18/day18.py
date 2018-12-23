@@ -67,7 +67,7 @@ def start(area):
 
     old_area = area
     ans = set()
-    for i in range(1000):
+    for _ in range(1000):
         new_area = {}
         for pt, _ in old_area.items():
             change(pt, old_area, new_area)
